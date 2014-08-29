@@ -1,0 +1,50 @@
+<EventTypes>
+    <EventType id="TaskSet">
+        <RegEx>sending message: TaskSet to '(\w*)'.*TaskSet jobId="(\d)".*externalJobId="(\w*)".*podId="(\d*)".*milestoneId="(\d*)"</RegEx>
+        <Fields>
+            <Field id="StationId" />
+            <Field id="JobId" isKey="true" />
+            <Field id="ExternalJobID" isKey="true" />
+            <Field id="PodId" />
+            <Field id="MilestoneId" isKey="true" />
+        </Fields>
+    </EventType>
+
+    <EventType id="ActivateMilestone">
+        <RegEx>sending message: TaskSet to '(\w*)'.*TaskSet jobId="(\d)".*externalJobId="(\w*)".*podId="(\d*)".*milestoneId="(\d*)"</RegEx>
+        <Fields>
+            <Field id="StationId" />
+            <Field id="JobId" isKey="true" />
+            <Field id="ExternalJobID" isKey="true" />
+            <Field id="PodId" />
+            <Field id="MilestoneId" isKey="true" />
+        </Fields>
+    </EventType>
+
+    <EventType id="ReqDrive">
+        <RegEx>sending message: TaskSet to '(\w*)'.*TaskSet jobId="(\d)".*externalJobId="(\w*)".*podId="(\d*)".*milestoneId="(\d*)"</RegEx>
+        <Fields>
+            <Field id="StationId" />
+            <Field id="JobId" isKey="true" />
+            <Field id="ExternalJobID" isKey="true" />
+            <Field id="PodId" />
+            <Field id="MilestoneId" isKey="true" />
+        </Fields>
+    </EventType>
+
+    <EventType id="GrantDrive">
+        <RegEx>sending message: TaskSet to '(\w*)'.*TaskSet jobId="(\d)".*externalJobId="(\w*)".*podId="(\d*)".*milestoneId="(\d*)"</RegEx>
+        <Fields>
+            <Field id="StationId" />
+            <Field id="JobId" isKey="true" />
+            <Field id="ExternalJobID" isKey="true" />
+            <Field id="PodId" />
+            <Field id="MilestoneId" isKey="true" />
+        </Fields>
+    </EventType>
+
+
+
+
+
+</EventTypes>
